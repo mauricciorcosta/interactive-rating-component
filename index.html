@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="star-wrapper"><img class="star" src="./assets/img/icon-star.svg" alt="Image of a rating yellow star."></div>
+            <p class="title">How did we do?</p>
+            <p class="text">Please let us know how we did with your support request. All feedback is appreciated 
+                to help us improve our offering!
+            </p>
+            <form name="form" action=".">
+                <div class="rate" id="radio-btns" >
+                    <label class="rating" type="radio" >
+                        <input class="rating-input" type="radio" value="1" name="radio-btns" required/>
+                        <span class="rating-radio">1</span>
+                    </label>
+                    <label class="rating" type="radio">
+                        <input class="rating-input" type="radio" value="2" name="radio-btns" required/>
+                        <span class="rating-radio">2</span>
+                    </label>
+                    <label class="rating" type="radio">
+                        <input class="rating-input" type="radio" value="3" name="radio-btns" required/>
+                        <span class="rating-radio">3</span>
+                    </label>
+                    <label class="rating" type="radio">
+                        <input class="rating-input" type="radio" value="4" name="radio-btns" required/>
+                        <span class="rating-radio">4</span>
+                    </label>
+                    <label class="rating" type="radio">
+                        <input class="rating-input" type="radio" value="5" name="radio-btns" checked required/>
+                        <span class="rating-radio">5</span>
+                    </label>
+                </div>
+                <div class="btn-wrapper">
+                    <div class="btn"><input class="btn-link" type="submit" value="SUBMIT"/></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
