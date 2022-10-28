@@ -12,6 +12,7 @@
     --darkGrey: #313b48;
     --mediumBlue: #313b48;
     --darkBlue: #252d37;
+    --mediumDarkBlue: #161a20;
     --veryDarkBlue: #121417;
 
     /* Fonts */
@@ -29,7 +30,7 @@ html {
 }
 
 .container .card {
-    background-color: var(--darkBlue);
+    background-image: linear-gradient(120deg, var(--mediumBlue), var(--mediumDarkBlue));
     display: flex;
     flex-direction: column;
     padding: 40px;
