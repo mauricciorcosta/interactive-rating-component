@@ -9,6 +9,7 @@
     --white: #ffffff;
     --lightGrey: #959eac;
     --mediumGrey: #7c8798;
+    --darkGrey: #313b48;
     --mediumBlue: #313b48;
     --darkBlue: #252d37;
     --veryDarkBlue: #121417;
@@ -45,7 +46,7 @@ html {
     display: flex;
     align-content: center;
     justify-content: center;
-    background-color: var(--mediumGrey);
+    background-color: var(--darkGrey);
     border: none;
     border-radius: 100%;
 }
@@ -75,7 +76,7 @@ html {
     cursor: pointer;
     width: 40px;
     height: 40px;
-    background-color: var(--mediumGrey);
+    background-color: var(--darkGrey);
     color: var(--white);
     border: none;
     border-radius: 100%;
