@@ -48,6 +48,7 @@ Usuários poderão:
 ### O apredizado continua
 
 Nesse projeto tive a chance de conhecer a pseudo-classe :has() no intuito de marcar o elemento pai de cada radio button
+
 HTML:
 ```
 <label class="rating" type="radio" >
